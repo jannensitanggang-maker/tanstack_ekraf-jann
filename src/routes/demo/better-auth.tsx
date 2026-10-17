@@ -146,7 +146,7 @@ function BetterAuthDemo() {
 							type="email"
 							value={email}
 							onChange={(e) => setEmail(e.target.value)}
-							className="demo-input"
+							className="demo-input border border-gray-300 bg-white text-slate-900"
 							required
 						/>
 					</div>
@@ -160,7 +160,7 @@ function BetterAuthDemo() {
 							type="password"
 							value={password}
 							onChange={(e) => setPassword(e.target.value)}
-							className="demo-input"
+							className="demo-input border border-gray-300 bg-white text-slate-900"
 							required
 							minLength={8}
 						/>
